@@ -1,0 +1,84 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Ajusta el ancho según sea necesario */
+    max-width: 800px; /* Ancho máximo para no estirarse demasiado en pantallas grandes */
+}
+
+h1 {
+    color: #333;
+}
+
+.medium-text {
+    font-size: 1.2em; /* Tamaño un poco más pequeño que el grande */
+}
+
+.large-text {
+    font-size: 1.5em; /* Tamaño grande ajustado */
+}
+
+.smaller-text {
+    font-size: 0.3em; /* Más pequeño */
+    color: #00ff00; /* Verde */
+    position: relative;
+    top: -0.3em; /* Ajuste para que quede pegado al texto anterior */
+}
+
+.spotify-playlist {
+    margin-top: 20px;
+    height: 220px; /* Altura fija para el contenedor de las listas de reproducción */
+    overflow-y: auto; /* Permitir el desplazamiento vertical */
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra para el efecto de contenedor */
+}
+
+.spotify-playlist iframe {
+    border-radius: 12px;
+    margin-bottom: 20px; /* Espacio entre los iframes */
+}
+
+.highlight-dominicano {
+    color: #0033a0; /* Azul (DOMI) */
+}
+
+.highlight-ni {
+    color: #d6cdcd; /* Blanco (NI) */
+}
+
+.highlight-cano {
+    color: #d52b1e; /* Rojo (CAN) */
+}
+
+.highlight-click {
+    color: #00ff00; /* Verde */
+}
+
+.highlight-by {
+    color: #333; /* Negro */
+}
+
+a {
+    text-decoration: none;
+}
+
+.highlight-d {
+    color: #bb00ff; /* Color especificado */
+}
+
+.highlight-barreiro {
+    color: #ff00f7; /* Color especificado */
+}
